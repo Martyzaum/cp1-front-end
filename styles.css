@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.headerBG {
+    background: linear-gradient(to left, #E51D37 50%, #F2F4FD 50%);
+    height: 100vh;
+}
+
+.headerContainer {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6rem;
+}
+
+.headerNavLogin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6rem;
+    gap: 0.6rem;
+    color: #F2F4FD
+}
+
+.headerNavLogin p {
+    color: #F2F4FD
+}
+
+.headerNavText {
+    font-size: 18px;
+    font-weight: 500;
+    color: #E51D37;
+    list-style: none;
+}
+
+.headerUl {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.headerLi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.cardContainer {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cardsDiv {
+    transform: scale(0.8);
+    position: relative;
+    left: 70px;
+}
+
+.card1 {
+    position: absolute;
+    top: -100px;
+    left: -10.5rem;
+}
+
+.card2 {}
+
+.cardDivH1 {
+    color: #E51D37;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.cardButtonsDiv {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.cardDivP {
+    color: #333333;
+    font-size: 26px;
+    font-weight: 500px;
+}
+
+.infos1Container {
+    background-color: #f8f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem;
+}
+
+.infos1Div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1 {
+    color: #333333;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.text2 {
+    color: #E51D37;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.infos1Div2 {
+    width: 50%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.infoCard {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 3rem;
+}
+
+.infoCard img {
+    width: 100px;
+    height: 100px;
+}
+
+.infoTextDiv {
+    display: flex;
+    align-items: start;
+    gap: 0.2rem;
+}
+
+.section3 {
+    background-color: #F2F4FD;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-left: 25%;
+    padding-top: 2rem;
+    flex-direction: column;
+}
+
+.textcard1 {
+    font-size: 18px;
+    color: #E51D37;
+}
+
+.textcard2 {
+    font-size: 36px;
+    color: #333333;
+}
+
+.textcard3 {
+    font-size: 36px;
+    color: #E51D37;
+}
+
+.section3Cards {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 colunas */
+    grid-template-rows: repeat(2, 1fr);
+    /* 2 linhas */
+    gap: 10px;
+    /* Espaçamento entre as imagens */
+}
+
+.section3Cards img {
+    width: 13rem;
+    /* Garante que as imagens ocupem todo o espaço disponível na célula do grid */
+    height: auto;
+    /* Mantém a proporção original da imagem */
+}
+
+.section4container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+
+.text41 {
+    font-size: 48px;
+    color: #282421;
+}
+
+
+.text43 {
+    font-size: 24px;
+    color: #646466;
+}
+
+.logofin {
+    background-color: #E51D37;
+    width: 100px;
+    border-radius: 20px;
+    padding: 20px;
+}
